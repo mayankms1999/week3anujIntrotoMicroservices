@@ -1,8 +1,9 @@
+server:
+   port: 8081
+#api gateway config
 spring:
   application:
-    name: api-gateway
-
-#api gateway config
+   name: api-gateway
   cloud:
     gateway:
       routes:
